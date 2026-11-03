@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="689" viewBox="0 0 1080 689" role="img" aria-label="CPU 并行：阶段提速不等于完整命令提速">
+<rect width="100%" height="100%" fill="#f8fafc"/>
+<style>text{font-family:Arial,"Noto Sans CJK SC","Microsoft YaHei",sans-serif;fill:#172033}</style>
+<text x="32" y="40" font-size="25" font-weight="700">CPU 并行：阶段提速不等于完整命令提速</text>
+<text x="32" y="74" font-size="16">固定输入；MuJoCo 3.3.3 / noslip2；两次中位数；完整进程墙钟（越低越好）</text>
+<line x1="285.0" y1="112" x2="285.0" y2="611" stroke="#dbe2ea"/>
+<text x="285.0" y="105" text-anchor="middle" font-size="14">0</text>
+<line x1="415.0" y1="112" x2="415.0" y2="611" stroke="#dbe2ea"/>
+<text x="415.0" y="105" text-anchor="middle" font-size="14">16</text>
+<line x1="545.0" y1="112" x2="545.0" y2="611" stroke="#dbe2ea"/>
+<text x="545.0" y="105" text-anchor="middle" font-size="14">32</text>
+<line x1="675.0" y1="112" x2="675.0" y2="611" stroke="#dbe2ea"/>
+<text x="675.0" y="105" text-anchor="middle" font-size="14">48</text>
+<line x1="805.0" y1="112" x2="805.0" y2="611" stroke="#dbe2ea"/>
+<text x="805.0" y="105" text-anchor="middle" font-size="14">64</text>
+<line x1="935.0" y1="112" x2="935.0" y2="611" stroke="#dbe2ea"/>
+<text x="935.0" y="105" text-anchor="middle" font-size="14">80</text>
+<text x="1045" y="105" text-anchor="end" font-size="14">秒</text>
+<text x="269" y="152" text-anchor="end" font-size="17">grasp 480条 / 1进程</text>
+<rect x="285" y="128" width="393.78005513513926" height="34" rx="4" fill="#2563eb"/>
+<text x="688.7800551351393" y="152" font-size="17">48.465</text>
+<text x="269" y="210" text-anchor="end" font-size="17">grasp 480条 / 4进程</text>
+<rect x="285" y="186" width="223.32330406585243" height="34" rx="4" fill="#2563eb"/>
+<text x="518.3233040658524" y="210" font-size="17">27.486</text>
+<text x="269" y="268" text-anchor="end" font-size="17">grasp 480条 / 8进程</text>
+<rect x="285" y="244" width="199.84566990460735" height="34" rx="4" fill="#2563eb"/>
+<text x="494.84566990460735" y="268" font-size="17">24.596</text>
+<text x="269" y="326" text-anchor="end" font-size="17">grasp 480条 / 16进程</text>
+<rect x="285" y="302" width="184.97831058164593" height="34" rx="4" fill="#2563eb"/>
+<text x="479.9783105816459" y="326" font-size="17">22.767</text>
+<text x="269" y="384" text-anchor="end" font-size="17">eval 121条 / 1进程</text>
+<rect x="285" y="360" width="632.3568370973226" height="34" rx="4" fill="#0f766e"/>
+<text x="927.3568370973226" y="384" font-size="17">77.829</text>
+<text x="269" y="442" text-anchor="end" font-size="17">eval 121条 / 4进程</text>
+<rect x="285" y="418" width="268.7212645832915" height="34" rx="4" fill="#0f766e"/>
+<text x="563.7212645832915" y="442" font-size="17">33.073</text>
+<text x="269" y="500" text-anchor="end" font-size="17">eval 121条 / 8进程</text>
+<rect x="285" y="476" width="212.83732774259988" height="34" rx="4" fill="#0f766e"/>
+<text x="507.8373277425999" y="500" font-size="17">26.195</text>
+<text x="269" y="558" text-anchor="end" font-size="17">eval 121条 / 16进程</text>
+<rect x="285" y="534" width="189.81109959771857" height="34" rx="4" fill="#0f766e"/>
+<text x="484.81109959771857" y="558" font-size="17">23.361</text>
+<text x="32" y="663" font-size="15">grasp 1→16进程：2.13×；eval：3.33×。每worker线程1，排除锁等待；不是全链路加速。</text></svg>
