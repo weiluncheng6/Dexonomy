@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="457" viewBox="0 0 1080 457" role="img" aria-label="真实小批 Stage4：本次 GPU 更慢">
+<rect width="100%" height="100%" fill="#f8fafc"/>
+<style>text{font-family:Arial,"Noto Sans CJK SC","Microsoft YaHei",sans-serif;fill:#172033}</style>
+<text x="32" y="40" font-size="25" font-weight="700">真实小批 Stage4：本次 GPU 更慢</text>
+<text x="32" y="74" font-size="16">同6个唯一候选 / 3资产；MuJoCo/MJWarp 3.17 / noslip2；单轮完整进程墙钟</text>
+<line x1="285.0" y1="112" x2="285.0" y2="379" stroke="#dbe2ea"/>
+<text x="285.0" y="105" text-anchor="middle" font-size="14">0</text>
+<line x1="415.0" y1="112" x2="415.0" y2="379" stroke="#dbe2ea"/>
+<text x="415.0" y="105" text-anchor="middle" font-size="14">16</text>
+<line x1="545.0" y1="112" x2="545.0" y2="379" stroke="#dbe2ea"/>
+<text x="545.0" y="105" text-anchor="middle" font-size="14">32</text>
+<line x1="675.0" y1="112" x2="675.0" y2="379" stroke="#dbe2ea"/>
+<text x="675.0" y="105" text-anchor="middle" font-size="14">48</text>
+<line x1="805.0" y1="112" x2="805.0" y2="379" stroke="#dbe2ea"/>
+<text x="805.0" y="105" text-anchor="middle" font-size="14">64</text>
+<line x1="935.0" y1="112" x2="935.0" y2="379" stroke="#dbe2ea"/>
+<text x="935.0" y="105" text-anchor="middle" font-size="14">80</text>
+<text x="1045" y="105" text-anchor="end" font-size="14">秒</text>
+<text x="269" y="152" text-anchor="end" font-size="17">CPU 1进程</text>
+<rect x="285" y="128" width="148.5290203243494" height="34" rx="4" fill="#64748b"/>
+<text x="443.5290203243494" y="152" font-size="17">18.280</text>
+<text x="269" y="210" text-anchor="end" font-size="17">CPU 6进程</text>
+<rect x="285" y="186" width="122.5812640960794" height="34" rx="4" fill="#2563eb"/>
+<text x="417.5812640960794" y="210" font-size="17">15.087</text>
+<text x="269" y="268" text-anchor="end" font-size="17">GPU resident b2</text>
+<rect x="285" y="244" width="341.5730965149123" height="34" rx="4" fill="#dc2626"/>
+<text x="636.5730965149123" y="268" font-size="17">42.040</text>
+<text x="269" y="326" text-anchor="end" font-size="17">GPU b8（诊断）</text>
+<rect x="285" y="302" width="573.5443239251617" height="34" rx="4" fill="#d97706"/>
+<text x="868.5443239251617" y="326" font-size="17">70.590</text>
+<text x="32" y="431" font-size="15">均4 PASS / 2 FAIL；b2无event计时，保留结果诊断；不是与4864重复候选暖态轮的直接对比。</text></svg>
