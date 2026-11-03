@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="399" viewBox="0 0 1080 399" role="img" aria-label="官方 slide：本轮三阶段命令成本">
+<rect width="100%" height="100%" fill="#f8fafc"/>
+<style>text{font-family:Arial,"Noto Sans CJK SC","Microsoft YaHei",sans-serif;fill:#172033}</style>
+<text x="32" y="40" font-size="25" font-weight="700">官方 slide：本轮三阶段命令成本</text>
+<text x="32" y="74" font-size="16">98,304 raw → 120 init → 63 grasp → 58 slide通过；CPU grasp/eval 4进程、线程1</text>
+<line x1="285.0" y1="112" x2="285.0" y2="321" stroke="#dbe2ea"/>
+<text x="285.0" y="105" text-anchor="middle" font-size="14">0</text>
+<line x1="415.0" y1="112" x2="415.0" y2="321" stroke="#dbe2ea"/>
+<text x="415.0" y="105" text-anchor="middle" font-size="14">15</text>
+<line x1="545.0" y1="112" x2="545.0" y2="321" stroke="#dbe2ea"/>
+<text x="545.0" y="105" text-anchor="middle" font-size="14">30</text>
+<line x1="675.0" y1="112" x2="675.0" y2="321" stroke="#dbe2ea"/>
+<text x="675.0" y="105" text-anchor="middle" font-size="14">45</text>
+<line x1="805.0" y1="112" x2="805.0" y2="321" stroke="#dbe2ea"/>
+<text x="805.0" y="105" text-anchor="middle" font-size="14">60</text>
+<line x1="935.0" y1="112" x2="935.0" y2="321" stroke="#dbe2ea"/>
+<text x="935.0" y="105" text-anchor="middle" font-size="14">75</text>
+<text x="1045" y="105" text-anchor="end" font-size="14">秒</text>
+<text x="269" y="152" text-anchor="end" font-size="17">Init 120输出</text>
+<rect x="285" y="128" width="517.4664832726121" height="34" rx="4" fill="#2563eb"/>
+<text x="812.4664832726121" y="152" font-size="17">59.708</text>
+<text x="269" y="210" text-anchor="end" font-size="17">Grasp 63产物</text>
+<rect x="285" y="186" width="353.2553538121283" height="34" rx="4" fill="#0f766e"/>
+<text x="648.2553538121283" y="210" font-size="17">40.760</text>
+<text x="269" y="268" text-anchor="end" font-size="17">Eval 58通过</text>
+<rect x="285" y="244" width="365.0639740601182" height="34" rx="4" fill="#7c3aed"/>
+<text x="660.0639740601182" y="268" font-size="17">42.123</text>
+<text x="32" y="373" font-size="15">合计142.591s；模板NOT_RUN。场景导出9.290s另列；占比仅三阶段命令之和，不含锁等待。</text></svg>
